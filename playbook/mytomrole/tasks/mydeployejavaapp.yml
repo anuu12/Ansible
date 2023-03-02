@@ -1,6 +1,6 @@
 ---
 - name: i want to deploy ravi java war file into webapps  
   get_url:
-   url: http://swhizzmdh.s3.amazonaws.com/raviLogin.war
+   url: https://a1jfrog.jfrog.io/ui/repos/tree/General/jfrogrepository
    dest: /usr/share/tomcat/webapps/raviLogin.war
    force_basic_auth: yes
